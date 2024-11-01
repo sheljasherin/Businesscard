@@ -1,0 +1,102 @@
+* {
+    margin: 1px;
+}
+.businesscard{
+  background-color:rgb(5, 60, 5);
+  border-top-right-radius:150px;
+  border-bottom-right-radius:150px ;
+  border-top-left-radius:20px;
+  border-bottom-left-radius:20px ;
+  height: 150px; 
+  width: 700px;
+
+}
+.card-left {
+    display: flex;
+    flex-direction: column;
+    margin-left:40px;
+ 
+
+}
+
+.card-left h1{
+    font-size: 25px;
+    margin-bottom:20px;
+    margin-top:30px;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+
+    
+}
+.card-left .role {
+    font-size: 18px;
+    color:rgb(234, 228, 228);
+    margin-top:-20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}
+.card-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -50px;
+    margin-left:10px;
+
+}
+.card-right .gmail{
+    font-size: 18px;
+    color:rgb(234, 228, 228);
+    margin-bottom: 10px;
+    margin-top:2px;
+    margin-right: 150px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.card-right .website {
+    margin-top: -8px; 
+    font-size: 18px;
+    margin-right:10px;
+    margin-right: 158px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(234, 228, 228);
+
+}
+.info{
+    display:flex;
+    color:rgb(234, 228, 228);
+    font-size:17px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.info .number{
+   margin-left: 50px;
+   margin-top:30px;
+
+}
+.info .mail{
+    margin-top:30px;
+    margin-left: 60px
+ }
+ .card-right  i {
+    font-size: 14px; 
+    margin-right: 5px;
+    color:rgb(62, 205, 62);
+ }
+
+ .info  i{    
+font-size: 14px; 
+ margin-right: 5px;
+ color:rgb(62, 205, 62);
+ }
+ .image1 {
+    display: flex;
+    justify-content: end;
+}
+.image2 {
+    width: 120px; 
+    height: 120px; 
+    margin-top:-120px;
+    display: flex;
+    justify-content: end;
+    margin-left:150px;
+    padding:-5px;
+
+}
